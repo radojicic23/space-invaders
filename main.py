@@ -1,5 +1,5 @@
 import pygame
-import random 
+import random
 
 from display import display_surface, WINDOW_WIDTH, WINDOW_HEIGHT
 from game import Game

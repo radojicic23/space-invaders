@@ -1,4 +1,4 @@
-import pygame, random 
+import pygame, random, sys
 
 from display import display_surface, WINDOW_WIDTH, WINDOW_HEIGHT
 from alien import Alien
@@ -172,6 +172,7 @@ class Game:
                 if event.type == pygame.QUIT:
                     is_paused = False
                     running = False
+                    sys.exit()
     
     def reset_game(self):
         """Reset the game"""
