@@ -1,7 +1,7 @@
 import pygame, random, sys
 
-from display import display_surface, WINDOW_WIDTH, WINDOW_HEIGHT
-from alien import Alien
+from GUI.display import display_surface, WINDOW_WIDTH, WINDOW_HEIGHT
+from GUI.alien import Alien
 
 
 class Game:

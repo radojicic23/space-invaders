@@ -1,6 +1,6 @@
 import pygame, random
-from display import WINDOW_WIDTH, WINDOW_HEIGHT
-from bullet import PlayerBullet
+from GUI.display import WINDOW_WIDTH, WINDOW_HEIGHT
+from GUI.bullet import PlayerBullet
 
 
 class Player(pygame.sprite.Sprite):

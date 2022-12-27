@@ -1,9 +1,9 @@
 import pygame
 import random
 
-from display import display_surface, WINDOW_WIDTH, WINDOW_HEIGHT
+from GUI.display import display_surface, WINDOW_WIDTH, WINDOW_HEIGHT
 from game import Game
-from player import Player
+from GUI.player import Player
 
 
 pygame.init()

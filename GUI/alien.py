@@ -1,6 +1,6 @@
 import pygame, random
 
-from bullet import AlienBullet
+from GUI.bullet import AlienBullet
 
 
 class Alien(pygame.sprite.Sprite):

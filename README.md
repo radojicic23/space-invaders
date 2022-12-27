@@ -11,4 +11,15 @@ Space Invaders game made with Python and Pygame.
 - <code>SPACEBAR</code> Shooting
 
 # Running the Game
-Run main.py to start the game.
+
+```bash
+git clone <repo-url>
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python main.py
+```
